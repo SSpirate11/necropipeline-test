@@ -21,11 +21,9 @@ class Calculator {
 
   /**
    * Multiply two numbers
-   * BUG: Returns wrong result!
    */
   multiply(a, b) {
-    // INTENTIONAL BUG: Should multiply, but adds instead
-    return a + b;
+    return a * b;
   }
 
   /**
