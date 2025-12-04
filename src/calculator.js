@@ -25,7 +25,7 @@ class Calculator {
    */
   multiply(a, b) {
     // INTENTIONAL BUG: Should multiply, but adds instead
-    return a + b;
+    return a * b;
   }
 
   /**
